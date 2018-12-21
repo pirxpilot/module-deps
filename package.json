@@ -1,5 +1,5 @@
 {
-  "name": "module-deps",
+  "name": "@pirxpilot/module-deps",
   "version": "6.2.0",
   "description": "walk the dependency graph to generate json output that can be fed into browser-pack",
   "main": "index.js",
@@ -30,10 +30,7 @@
   "scripts": {
     "test": "tap test/*.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/browserify/module-deps.git"
-  },
+  "repository": "pirxpilot/module-deps",
   "homepage": "https://github.com/browserify/module-deps",
   "keywords": [
     "dependency",
@@ -52,5 +49,9 @@
   "engines": {
     "node": ">= 0.8.0"
   },
+  "files": [
+    "index.js",
+    "bin"
+  ],
   "license": "MIT"
 }
