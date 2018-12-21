@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 6.3.0 / 2018-12-21
+
+ * rename to @pirxpilot/module-deps
+ * add support for `transformPaths` option
+ * respect passed 'paths' option. also allows `NODE_PATH` to work
+
 ## 6.2.0 - 2018-11-13
 * Add `.dirname` property to the object given to `opts.resolve` [#154](https://github.com/browserify/module-deps/pull/154)
 
